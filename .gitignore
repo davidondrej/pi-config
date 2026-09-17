@@ -1,0 +1,18 @@
+# Allow only the reviewed scaffold. Extend this list after each approved audit batch.
+*
+!.gitignore
+!AGENTS.md
+!CLAUDE.md
+!docs/
+docs/*
+!docs/adr/
+!docs/adr/*.md
+!.agents/
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/.gitkeep
+!.claude/
+.claude/*
+!.claude/skills
+/private/
