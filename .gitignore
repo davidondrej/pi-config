@@ -1,6 +1,7 @@
 # Allow only reviewed public files. New files stay private until explicitly added here.
 *
 !.gitignore
+!README.md
 !LICENSE
 !AGENTS.md
 !CLAUDE.md
