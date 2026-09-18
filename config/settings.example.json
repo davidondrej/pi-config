@@ -1,0 +1,21 @@
+{
+  "defaultProvider": "openrouter",
+  "defaultModel": "moonshotai/kimi-k3",
+  "defaultThinkingLevel": "high",
+  "compactionModel": {
+    "model": "openrouter/google/gemini-3.8-flash:nitro",
+    "thinkingLevel": "high"
+  },
+  "theme": "dark",
+  "retry": {
+    "provider": {
+      "timeoutMs": 600000
+    }
+  },
+  "httpIdleTimeoutMs": 600000,
+  "packages": [
+    "npm:pi-web-access@0.10.7",
+    "npm:@benvargas/pi-openai-fast@1.0.5",
+    "npm:pi-compaction-model@0.1.0"
+  ]
+}

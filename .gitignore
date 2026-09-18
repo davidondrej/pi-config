@@ -1,12 +1,36 @@
-# Allow only the reviewed scaffold. Extend this list after each approved audit batch.
+# Allow only reviewed public files. New files stay private until explicitly added here.
 *
 !.gitignore
+!LICENSE
 !AGENTS.md
 !CLAUDE.md
 !docs/
 docs/*
 !docs/adr/
 !docs/adr/*.md
+!docs/setup.md
+!config/
+!config/AGENTS.md
+!config/CLAUDE.md
+!config/settings.example.json
+!config/models.example.json
+!config/pi-openai-fast.example.json
+!config/web-search.example.json
+!config/global-instructions.example.md
+!config/APPEND_SYSTEM.example.md
+!extensions/
+!extensions/AGENTS.md
+!extensions/CLAUDE.md
+!extensions/command-guard.ts
+!extensions/dangerous-patterns.txt
+!prompts/
+!prompts/short.md
+!prompts/stage.md
+!tests/
+!tests/AGENTS.md
+!tests/CLAUDE.md
+!tests/command-guard.test.mjs
+!tests/config.test.mjs
 !.agents/
 .agents/*
 !.agents/skills/

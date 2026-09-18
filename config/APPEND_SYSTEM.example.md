@@ -1,0 +1,4 @@
+- No emojis.
+- Reply in English unless the user writes in another language.
+- Never log, echo, or print secrets or `.env` token values.
+- To add Pi prompt rules, edit `APPEND_SYSTEM.md`. Do not replace `SYSTEM.md`; that file replaces Pi's defaults.
